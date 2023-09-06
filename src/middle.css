@@ -1,0 +1,325 @@
+.middle .App {
+  text-align :center;
+}
+
+.middle {
+  background-image :url('./img/bg.jpg');
+  min-height :100vh;
+}
+
+.middle .App-logo {
+  height :40vmin;
+}
+
+.middle .App-logohover {
+  cursor :pointer;
+}
+
+@media (prefers-reduced-motion :no-preference) {
+  .middle .App-logo {
+    animation:App-logo-spin infinite 20s linear;
+  }
+}
+
+.middle .colorBar{
+  height :4.35vh;
+  background-color :#F0BDFF;
+}
+
+.middle .App-header {
+  background-color :#282c34;
+  min-height :100vh;
+  display :flex;
+  flex-direction :column;
+  align-items :center;
+  justify-content :center;
+  font-size: calc(10px + 2vmin);
+  color :white;
+}
+
+.middle .App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform :rotate(0deg);
+  }
+  to {
+    transform :rotate(360deg);
+  }
+}
+
+.middle .table .menui {
+  user-select :none;
+  background-color :#F9E6FF;
+  margin-right :0.83vw;
+  margin-left: 0.83vw;
+  padding-right :3.85vw;
+  padding-left :3.85vw;
+  padding-top :3.06vh;
+  border-radius :4.63vh;
+  padding-bottom :3.06vh;
+  font-size: 2.21vh;
+  transition :background-color 0.5s, opacity 0.5s, color 0.5s ,box-shadow 0.5s;
+  text-decoration :none;
+}
+.middle .table .menui:hover{
+  cursor :pointer;
+  opacity :0.8;
+  box-shadow: 0vh 0.37vh 0.74vh 0vh rgba(0, 0, 0, 0.5);
+}
+.middle .table .menui:active{
+  background-color :#d754ff;
+  color :#F9E6FF;
+}
+
+.middle .table .menuii {
+  user-select: none;
+  background-color: #F9E6FF;
+  margin-right:1.93vw;
+  padding-right :2.86vw;
+  padding-left :2.86vw;
+  padding-top :3.06vh;
+  border-radius :4.63vh;
+  padding-bottom :3.06vh;
+  font-size :2.21vh;
+  transition :background-color 0.5s, opacity 0.5s, color 0.5s, box-shadow 0.5s;
+  text-decoration :none;
+}
+.middle .table .menuii:hover {
+  cursor :pointer;
+  opacity :0.8;
+  box-shadow :0vh 0.37vh 0.74vh 0vh rgba(0, 0, 0, 0.5);
+}
+.middle .table .menuii:active{
+  background-color :#d754ff;
+  color :#F9E6FF;
+}
+
+.middle .table .menuiii {
+  user-select :none;
+  background-color :#F9E6FF;
+  margin-right :1.93vw;
+  padding-right :2.86vw;
+  padding-left :2.86vw;
+  padding-top :3.06vh;
+  border-radius :4.63vh;
+  padding-bottom :3.06vh;
+  font-size :2.21vh;
+  transition :background-color 0.5s, opacity 0.5s, color 0.5s, box-shadow 0.5s;
+  text-decoration :none;
+}
+.middle .table .menuiii:hover {
+  cursor :pointer;
+  opacity :0.8;
+  box-shadow :0vh 0.37vh 0.74vh 0vh rgba(0, 0, 0, 0.5);
+}
+.middle .table .menuiii:active{
+  background-color :#d754ff;
+  color :#F9E6FF;
+}
+
+.middle .table .menuiv {
+  user-select :none;
+  background-color :#F9E6FF;
+  margin-right :1.93vw;
+  padding-right :2.86vw;
+  padding-left :2.86vw;
+  padding-top :3.06vh;
+  border-radius :4.63vh;
+  padding-bottom :3.06vh;
+  font-size :2.21vh;
+  transition :background-color 0.5s, opacity 0.5s, color 0.5s, box-shadow 0.5s;
+  text-decoration :none;
+}
+.middle .table .menuiv:hover {
+  cursor :pointer;
+  opacity: 0.8;
+  box-shadow :0vh 0.37vh 0.74vh 0vh rgba(0, 0, 0, 0.5);
+}
+.middle .table .menuiv:active{
+  background-color :#d754ff;
+  color :#F9E6FF;
+}
+
+.middle .table .menuv {
+  user-select:none;
+  background-color :#F9E6FF;
+  margin-right :1.93vw;
+  padding-right :2.86vw;
+  padding-left: 2.86vw;
+  padding-top :3.06vh;
+  border-radius :4.63vh;
+  padding-bottom :3.06vh;
+  font-size: 2.21vh;
+  transition :background-color 0.5s, opacity 0.5s, color 0.5s, box-shadow 0.5s;
+  text-decoration: none;
+}
+.middle .table .menuv:hover {
+  cursor :pointer;
+  opacity :0.8;
+  box-shadow :0vh 0.37vh 0.74vh 0vh rgba(0, 0, 0, 0.5);
+}
+.middle .table .menuv:active{
+  background-color :#d754ff;
+  color: #F9E6FF;
+}
+
+.middle .table .menuvi {
+  user-select :none;
+  background-color :#F9E6FF;
+  margin-right :1.93vw;
+  padding-right :2.86vw;
+  padding-left :2.86vw;
+  padding-top :3.06vh;
+  border-radius :4.63vh;
+  padding-bottom :3.06vh;
+  font-size :2.21vh;
+  transition :background-color 0.5s, opacity 0.5s, color 0.5s, box-shadow 0.5s;
+  text-decoration :none;
+}
+.middle .table .menuvi:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  box-shadow :0vh 0.37vh 0.74vh 0vh rgba(0, 0, 0, 0.5);
+}
+.middle .table .menuvi:active{
+  background-color :#d754ff;
+  color: #F9E6FF;
+}
+
+.middle .table .menuvii {
+  user-select :none;
+  background-color :#F9E6FF;
+  margin-right :1.93vw;
+  padding-right :2.86vw;
+  padding-left :2.86vw;
+  padding-top: 3.06vh;
+  border-radius :4.63vh;
+  padding-bottom :3.06vh;
+  font-size: 2.21vh;
+  transition :background-color 0.5s, opacity 0.5s, color 0.5s, box-shadow 0.5s;
+  text-decoration :none;
+}
+.middle .table .menuvii:hover {
+  cursor :pointer;
+  opacity: 0.8;
+  box-shadow :0vh 0.37vh 0.74vh 0vh rgba(0, 0, 0, 0.5);
+}
+.middle .table .menuvii:active{
+  background-color :#d754ff;
+  color: #F9E6FF;
+}
+
+.middle .table {
+  display :flex;
+  height :15.09vh;
+   border :1px solid black; 
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.middle .table .App-logo {
+  height :13.3vh;
+  margin-right :2.34vw;
+  margin-left: 1.15vw;
+}
+
+.middle .heads {
+  display :flex;
+  justify-content :center;
+  margin-top: 3.06vh;
+}
+
+.middle .headsi {
+  user-select :none;
+  font-size :2.84vh;
+  font-weight :bold;
+  background-color: white;
+  border :solid black;
+  border-radius :3.56vh;
+  padding :3.24vh 3.02vw;
+  height: fit-content;
+}
+
+.middle .headsi:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  box-shadow: 0 0.2vh 0.2vh 0 rgba(0, 0, 0, 0.5);
+}
+
+.middle .headsii {
+  user-select :none;
+  font-size: 3.88vh;
+  font-weight: bold;
+  margin-right :9.8vw;
+  margin-left :9.8vw;
+  background-color: white;
+  border :solid black;
+  border-radius :3.56vh;
+  padding :3.24vh 9.01vw;
+}
+
+.middle .search {
+  font-size :2.5vh;
+  border-radius :2.31vh;
+  height :fit-content;
+  margin-top :4.59vh;
+}
+
+.middle .infobar {
+  display :flex;
+  margin-top :3.52vh;
+  justify-content :center;
+  
+}
+
+.middle .infobar .info {
+  background-color :white;
+  padding :27.15vh 30.52vw;
+  border :solid black;
+  border-radius :3.56vh;
+  font-size :1vw;
+}
+
+.middle .table .ebar .dropdown {
+  display :none;
+  position :absolute;
+  background-color :white;
+  min-width :6.25vw;
+  box-shadow :0vh 0.74vh 1.48vh 0vh rgba(0,0,0,0.1);
+  z-index :1;
+  margin-right :6vw;
+  border-radius :1.39vh;
+}
+
+.middle .table .ebar .dropdown a{
+  color :black;
+  padding :0.75vh 1vw;
+  text-decoration :none;
+  display :block;
+  text-align :left;
+  user-select :none;
+  border-radius :1.39vh;
+  transition :background-color 0.4s, color 0.4s;
+}
+
+.middle .table .ebar .dropdown a:hover {
+  background-color :#d754ff;
+  color:white;
+}
+
+.middle .table .ebar:hover .dropdown{
+  display :block;
+  right :0;
+}
+
+.middle .ebar {
+  margin-right :0.83vw;
+  margin-left :3.85vw;
+  border-radius :4.63vh;
+  font-size :3.5vh;
+  cursor :pointer;
+}

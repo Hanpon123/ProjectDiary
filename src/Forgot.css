@@ -1,0 +1,87 @@
+forgot .table{
+    min-height: 100vh;
+    background-image: url('./img/bg.jpg');
+    font-family: 'Mali', cursive;
+    font-weight: bold;
+    font-size: 1.24vw;
+}
+
+forgot .colorBar{
+    background-color: #F0BDFF;
+    height: 17.69vh;
+}
+
+forgot .main{
+    display: flex;
+    margin-top: -12vh;
+    justify-content: center;
+}
+
+forgot .main a{
+    padding: 11.20vh 12.97vw;
+    background-color: white;
+    border: 0.5vh solid black;
+    font-size: 1.24vw;
+    border-radius: 4vh;
+}
+
+forgot .main .logo{
+    width: 13.59vw;
+    margin-left: 4.2vw;
+}
+
+forgot .main .organize{
+    height: 16.48vh;
+    width: 33.93vw;
+    margin-top: 8.24vh;
+    margin-left: 4.2vw;
+}
+
+forgot .forgotFrame{
+    text-align: center;
+}
+
+forgot .forgotText{
+    width: 20vw;
+    font-size: 1.74vw;
+    padding: 2.13vh 5.99vw;
+    background: white;
+    border: 0.5vh solid black;
+    border-radius: 4vh;
+}
+
+forgot .forgotFrame{
+    margin-top: 5vh;
+    background-color: #F9E6FF;
+    border-radius: 4vh;
+    border: 0.5vh solid black;
+    text-align: center;
+    width: 30vw;
+}
+
+forgot .forgotFrame input{
+    margin-top: 2vh;
+    width: 15vw;
+    height: 4vh;
+    border-radius: 1vh;
+    border: 0.25vh solid black;
+    font-family: 'Mali', cursive;
+    font-weight: bold;
+    font-size: 1.24vw;
+}
+
+forgot .forgotFrame .submit{
+    height: 6vh;
+    margin-top: 4vh;
+    border-radius: 1vh;
+    border: 0.25vh solid black;
+    font-family: 'Mali', cursive;
+    font-weight: bold;
+    font-size: 1.24vw;
+    margin-bottom: 3vh;
+    cursor: pointer;
+}
+
+forgot .forgotFrame .submit:active{
+    cursor: progress;
+}

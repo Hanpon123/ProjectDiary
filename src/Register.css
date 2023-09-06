@@ -1,0 +1,92 @@
+.App {
+    text-align: center;
+}
+
+.register{
+    background-image: url('./img/bg.jpg');
+    min-height: 61vh;
+}
+  
+.register .divres {
+    font-family: 'Mali', cursive;
+    font-weight: bold;
+}
+
+.register .colorBar{
+    background-color: #F0BDFF;
+    height: 17.69vh;
+}
+
+.register .main{
+    display: flex;
+    margin-top: -12vh;
+    justify-content: center;
+}
+
+.register .main a{
+    padding: 11.20vh 12.97vw;
+    background-color: white;
+    border: 0.5vh solid black;
+    font-size: 1.24vw;
+    border-radius: 4vh;
+}
+
+.register .main .logo{
+    width: 13.59vw;
+    margin-left: 4.2vw;
+}
+
+.register .main .organize{
+    height: 16.48vh;
+    width: 33.93vw;
+    margin-top: 8.24vh;
+    margin-left: 4.2vw;
+}
+
+.register .registerFrame{
+    text-align: center;
+}
+
+.register .registerText{
+    width: 8vw;
+    font-size: 1.74vw;
+    padding: 2.13vh 5.99vw;
+    background: white;
+    border: 0.5vh solid black;
+    border-radius: 4vh;
+}
+
+.register .registerFrame{
+    margin-top: 5vh;
+    background-color: #F9E6FF;
+    border-radius: 4vh;
+    border: 0.5vh solid black;
+    text-align: center;
+    width: 20vw;
+}
+
+.register .registerFrame input{
+    margin-top: 4vh;
+    width: 15vw;
+    height: 4vh;
+    border-radius: 1vh;
+    border: 0.25vh solid black;
+    font-family: 'Mali', cursive;
+    font-weight: bold;
+    font-size: 1.24vw;
+}
+
+.register .registerFrame .submit{
+    margin-top: 4vh;
+    border-radius: 1vh;
+    border: 0.25vh solid black;
+    font-family: 'Mali', cursive;
+    font-weight: bold;
+    font-size: 1.24vw;
+    margin-bottom: 3vh;
+    cursor: pointer;
+}
+
+.register .registerFrame .submit:active{
+    cursor: progress;
+}

@@ -1,0 +1,119 @@
+home .table{
+    min-height: 100vh;
+    background-image: url('./img/bg.jpg');
+    font-family: 'Mali', cursive;
+    font-weight: bold;
+    font-size: 1.24vw;
+}
+
+home .colorBar{
+    background-color: #F0BDFF;
+    height: 17.69vh;
+}
+
+home .main{
+    display: flex;
+    margin-top: -12vh;
+    justify-content: center;
+}
+
+home .main a{
+    padding: 11.20vh 12.97vw;
+    background-color: white;
+    border: 0.5vh solid black;
+    font-size: 1.24vw;
+    border-radius: 4vh;
+}
+
+home .main .logo{
+    width: 13.59vw;
+    margin-left: 4.2vw;
+}
+
+home .main .organize{
+    height: 16.48vh;
+    width: 33.93vw;
+    margin-top: 8.24vh;
+    margin-left: 4.2vw;
+}
+
+home .loginText{
+    font-size: 1.74vw;
+    padding: 2.13vh 5.99vw;
+    background: white;
+    border: 0.5vh solid black;
+    border-radius: 4vh;
+}
+
+home .Login{
+    /* border: 1px solid black; */
+    margin-top: 4.81vh;
+    /* border: 3px solid red; */
+}
+
+home .news{
+    /* border: 1px solid red; */
+    margin-top: 2.68vh;
+    /* border: 3px solid green; */
+}
+
+home .news a{
+    padding: 0vh 27.32vw 53.92vh 27.32vw;
+    background-color: white;
+    border: 0.5vh solid black;
+    border-radius: 4vh;
+    margin-left: 7.14vw;
+    font-size: 1.24vw;
+}
+
+home .content{
+    display: flex;
+    justify-content: center;
+    /* border: 3px solid aqua; */
+    text-align: center;
+}
+
+home .loginFrame{
+    margin-top: 5vh;
+    background-color: #F9E6FF;
+    border-radius: 4vh;
+    border: 0.5vh solid black;
+    text-align: center;
+    width: 17vw;
+}
+
+home .loginFrame input{
+    margin-top: 4vh;
+    width: 15vw;
+    height: 4vh;
+    border-radius: 1vh;
+    border: 0.25vh solid black;
+    font-family: 'Mali', cursive;
+    font-weight: bold;
+    font-size: 1.24vw;
+}
+
+home .loginFrame .handleLogin{
+    margin-top: 4vh;
+    border-radius: 1vh;
+    border: 0.25vh solid black;
+    font-family: 'Mali', cursive;
+    font-weight: bold;
+    font-size: 1.24vw;
+    margin-bottom: 3vh;
+    cursor: pointer;
+}
+
+home .loginFrame .guest{
+    border-radius: 1vh;
+    border: 0.25vh solid black;
+    font-family: 'Mali', cursive;
+    font-weight: bold;
+    font-size: 1.24vw;
+    margin-bottom: 3vh;
+    height: 5vh;
+    cursor: pointer;
+}
+
+
+

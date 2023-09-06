@@ -1,0 +1,221 @@
+.choose.App {
+  text-align :center;
+}
+
+.choose {
+  background-image :url('./img/bg.jpg');
+  min-height :100vh;
+}
+
+.choose .tableChoose .App-logo {
+  height: 13vmin;
+}
+
+.choose .tableChoose .App-logo:hover {
+  cursor :pointer;
+}
+
+@media (prefers-reduced-motion :no-preference) {
+  .choose .tableChoose .App-logo {
+    animation :App-logo-spin infinite 20s linear;
+  }
+}
+
+.choose .colorBar{
+  height: 4.35vh;
+  background-color: #F0BDFF;
+}
+
+.choose .App-header {
+  background-color :#282c34;
+  min-height :100vh;
+  display :flex;
+  flex-direction :column;
+  align-items :center;
+  justify-content :center;
+  font-size :calc(10px + 2vmin);
+  color :white;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform :rotate(0deg);
+  }
+  to {
+    transform :rotate(360deg);
+  }
+}
+
+.choose .tableChoose .menuChoose {
+  user-select :none;
+  background-color :#F9E6FF;
+  margin-right :27vw;
+  margin-left: 27vw;
+  padding-right :3.85vw;
+  padding-left :3.85vw;
+  padding-top :3.06vh;
+  border-radius :4.63vh;
+  padding-bottom :3.06vh;
+  font-size: 2.21vh;
+  transition :background-color 0.5s, opacity 0.5s, color 0.5s ,box-shadow 0.5s;
+  text-decoration :none;
+  font-size: 2.12vw;
+  font-weight: 500;
+  font-family: 'Mali',cursive;
+}
+
+.choose .tableChoose .log {
+  user-select :none;
+  background-color : white;
+  margin-right :1.93vw;
+  padding-right :2.86vw;
+  padding-left :2.86vw;
+  padding-top :3.06vh;
+  border-radius :4.63vh;
+  padding-bottom :3.06vh;
+  font-size: 1.9vh;
+  transition :background-color 0.5s, opacity 0.5s, color 0.5s, box-shadow 0.5s;
+  text-decoration: none;
+  border: solid black;
+  font-weight: bold;
+  font-family: 'Mali',cursive;
+}
+.choose .tableChoose .log:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  box-shadow :0vh 0.37vh 0.74vh 0vh rgba(0, 0, 0, 0.5);
+}
+.choose .tableChoose .log:active{
+  background-color :#F9E6FF;
+  color: #d754ff;
+}
+
+.choose .tableChoose {
+  display :flex;
+  height :15.09vh;
+  border :1px solid black; 
+  align-items :center;
+  justify-content :center;
+  background-color :white;
+}
+
+.choose .tableChoose .App-logo {
+  height :13.3vh;
+  margin-right :2.34vw;
+  margin-left: 1.15vw;
+}
+
+
+
+.choose .split {
+  display :flex;
+  font-weight: bold;
+  font-family: 'Mali',cursive;
+  font-size: 1.24vw;
+}
+
+.choose .split .heads {
+  margin-top :3.5vh;
+}
+
+.choose .split .heads .headsi {
+  background-color :#F9E6FF;
+  border: solid black;
+  border-radius :3.56vh;
+  width: 40.57vw;
+  height: 20.83vh;
+  margin-bottom: 3vh;
+  margin-left: 1vw;
+  display: block;
+}
+
+.choose .split .heads .headsii {
+  user-select :none;
+  font-size :3.88vh;
+  font-weight :bold;
+  margin-right :9.8vw;
+  margin-left :9.8vw;
+  background-color :white;
+  border :solid black;
+  border-radius :3.56vh;
+  padding :3.24vh 9.01vw;
+}
+
+.choose .split .infobar {
+  justify-content: right;
+  margin-top :38vh;
+  margin-left: 1vw;
+  display: block;
+}
+
+.choose .split .infobar .info {
+  background-color: white;
+  border :solid black;
+  border-radius :3.56vh;
+  padding: 36.67vh 24.84vw;
+  font-size :1vw;
+  text-align: center;
+}
+
+.choose .tableChoose .dropdown {
+  display :none;
+  position :absolute;
+  background-color :white;
+  min-width: 6.25vw;
+  box-shadow :0vh 0.74vh 1.48vh 0vh rgba(0,0,0,0.1);
+  z-index :1;
+  margin-right :6vw;
+  border-radius :1.39vh;
+}
+
+.choose .tableChoose .ebar {
+  margin-right :0.83vw;
+  margin-left :3.85vw;
+  border-radius :4.63vh;
+  font-size :3.5vh;
+  display :inline-block;
+  cursor :pointer;
+}
+
+.choose .split .heads .headsi .middlesc {
+  display: flex;
+  justify-content: center;
+}
+
+.choose .split .heads .headsi .clicksc {
+  display: flex;
+  justify-content: center;
+}
+
+.choose .split .heads .headsi .middlesc .box {
+  user-select: none;
+  padding: 2.5vh 10vw;
+  border: solid black;
+  border-radius: 4vw;
+  background-color: white;
+  margin-top: 1vh;
+  text-align: center;
+  font-size: 1.2vw;
+}
+
+.choose .split .heads .headsi .clicksc .box {
+  user-select: none;
+  padding: 2.5vh 10vw;
+  border: solid black;
+  border-radius: 4vw;
+  background-color: white;
+  margin-top: 1vh;
+  text-align: center;
+  font-size: 1.2vw;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.choose .split .heads .headsi .clicksc .box:hover {
+  background-color: #F0BDFF;
+  cursor: pointer;
+}
+
+.choose .split .heads .headsi .clicksc .box:active {
+  background-color: #d754ff;
+  color: white;
+}
